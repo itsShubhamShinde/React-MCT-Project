@@ -10,17 +10,19 @@
   - Redux.
   - Alert.
   - Filtering.
+  - FetchAPI.
+  - Conditional Rendering - React.
+  
 ## Hooks :
   - Usestate.
   - Uselocation.
   - Useeffect.
-  - FetchAPI.
-  - Conditional Rendering - React.
   - Usenavigation.
   - Useparam.
   - Useselector.
   - Usedispatch.
   - Usereducer.
+  
 ## Login Details :
    - Email : Enter any data.
    - Password : Enter any data.
