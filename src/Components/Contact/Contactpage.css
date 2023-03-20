@@ -1,0 +1,9 @@
+.CotactOuterDiv{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: red;
+    padding-top: 5rem;
+}

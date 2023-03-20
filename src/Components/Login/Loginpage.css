@@ -1,0 +1,111 @@
+.loginpageOuterDiv {
+    /* border: 2px solid red; */
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpageBox {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 1px solid blue; */
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 85%;
+    width: 60%;
+    display: flex;
+}
+
+.LoginPageLeftDiv {
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.loginUpperDiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.loginUpperDiv span input{
+    background-color: antiquewhite;
+    width: 90%;
+    border:1px solid gray;
+}
+.LoginPageLeftDiv span {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+}
+.LoginPageLeftDiv span input{
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.checkbox {
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.check label{
+    margin-left: 10px;
+}
+.checkbox p{
+    margin-right: 30px;
+}
+.LoginbuttonDiv{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.LoginbuttonDiv button{
+    padding: .3rem;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.LoginPageRightDiv {
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginFooter{
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.loginFooter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginFooter div p{
+    margin: 10px;
+}
+.LoginPageRightDiv img {
+    height: 100%;
+    width: 100%;
+}

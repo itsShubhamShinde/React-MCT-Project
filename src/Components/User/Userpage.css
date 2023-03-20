@@ -1,0 +1,82 @@
+.userOuterDiv{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.UserTitleDiv{
+    height: 30%;
+    width:100%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.UserTitleDiv h1{
+    font-size: 2.5rem;
+}
+
+.SelectoptionDiv{
+    width: 25%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SelectoptionDiv span label{
+    padding-left: 10px;
+}
+.UserAnswerDiv{
+    height: 70%;
+    width:100%;
+    overflow-y: scroll;
+}
+.tabletitlediv{
+    height: 10%;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 20%;
+    text-align: center;
+}
+.name{
+    width:20%;
+    text-align: center;
+
+}
+.email{
+    width: 30%;
+    text-align: center;
+
+}
+.gender{
+    width: 30%;
+    text-align: center;
+
+}
+.TableDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 30%;
+    width: 100%;
+}
+.image1{
+    width: 20%;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

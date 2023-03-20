@@ -1,0 +1,27 @@
+.NavbarOuterDiv{
+    /* border: 2px solid red; */
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.NavbarOuterDiv div{
+    /* border: 2px solid blue; */
+    width: 50%;
+    margin-right: 60px;
+}
+.NavbarOuterDiv div ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.NavbarOuterDiv div ul li{
+    list-style-type: none;
+    font-size: 1.3rem;
+    color: white;
+}
+a{
+    text-decoration: none;
+}

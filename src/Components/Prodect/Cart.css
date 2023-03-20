@@ -1,0 +1,47 @@
+.cardOuterDiv{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CartBoxDiv{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CartTitleDiv{
+    height: 15%;
+    width: 100%;
+    background-color: #90ee90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CartDetailDiv{
+    height: 85%;
+    width: 100%;
+    display: flex;
+}
+.productImage{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productImage img{
+    height: 80%;
+    width: 80%;
+}
+.productDetails{
+    height: 100%;
+    width: 65%;
+}
+.productDetails div{
+    padding: 10px;
+}

@@ -1,0 +1,48 @@
+.ProductpagrOuterDiv{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.productBox{
+    display: flex;
+    height: 80%;
+    width: 80%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+.productLeftDiv{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.productRightDiv{
+    color: black;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.productRightDiv ul {
+    height: 100%;
+    width: 95%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.productRightDiv ul li{
+    color: black;
+    padding: 0.5rem 1rem;
+}

@@ -1,0 +1,28 @@
+.SortingDetailsOuterDiv{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SortingDetailsDiv{
+    height: 100%;
+    width: 90%;
+    /* border: 2px solid blue; */
+}
+.SortingDetailsDiv ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+.SortingDetailsDiv ul li{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    padding: .5rem 1rem;
+}
+.SortingDetailsDiv a{
+    color: black;
+}
