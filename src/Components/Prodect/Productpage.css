@@ -23,6 +23,9 @@
     background-color: black;
     color: white;
 }
+.listproduct{
+    text-transform: capitalize;
+}
 a{
     text-decoration: none;
     color: white;

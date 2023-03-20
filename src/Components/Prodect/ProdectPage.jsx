@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import './Productpage.css'
-import { Link} from 'react-router-dom'
+import { Link, useParams} from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { addToCart } from '../redux/action'
 const ProdectPage = () => {
   const dispatch = useDispatch();
-  // const { parems } = useParams()
+  const { parems } = useParams()
   const [productlist, setProductlist] = useState([])
   const [catogary, setCatogary] = useState([])
   const [typecatogary, setTypecatogary] = useState("electronics")
@@ -30,7 +30,7 @@ const ProdectPage = () => {
           {
             catogary.length === 0 ? <div>Data not Present</div> :
               catogary.map((ele) => {
-                return <div>
+                return <div className='listproduct'>
                   <Link to={ele} onClick={() => {
                     setTypecatogary(ele)
                   }}><h2>{ele && ele}</h2></Link>

@@ -1,5 +1,4 @@
 .loginpageOuterDiv {
-    /* border: 2px solid red; */
     height: 80vh;
     width: 100%;
     display: flex;
@@ -9,7 +8,6 @@
 
 .loginpageBox {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    /* border: 1px solid blue; */
     padding-left: 30px;
     padding-top: 10px;
     height: 85%;
@@ -18,14 +16,12 @@
 }
 
 .LoginPageLeftDiv {
-    /* border: 2px solid blue; */
     height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 .loginUpperDiv{
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -41,14 +37,12 @@
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    /* border: 2px solid blue; */
 }
 .LoginPageLeftDiv span input{
     padding: 0.2rem;
     border-radius: 5px;
 }
 .checkbox {
-    /* border: 2px solid red; */
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -56,7 +50,6 @@
 }
 
 .check {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -68,7 +61,6 @@
     margin-right: 30px;
 }
 .LoginbuttonDiv{
-    /* border: 2px solid red; */
     margin-top: 10px;
     margin-right: 10px;
     display: flex;
@@ -82,7 +74,6 @@
 }
 
 .LoginPageRightDiv {
-    /* border: 2px solid blue; */
     height: 100%;
     width: 50%;
     display: flex;
@@ -90,7 +81,6 @@
     align-items: center;
 }
 .loginFooter{
-    /* border: 2px solid red; */
     margin-top: 15px;
     display: flex;
     flex-direction: column;

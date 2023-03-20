@@ -52,7 +52,6 @@ const UserPage = () => {
                 <p className='name'>{ele.name.first}</p>
                 <p className='email'>{ele.email}</p>
                 <p className='gender'>{ele.gender}</p>
-                <hr />
               </div>
             })
         }

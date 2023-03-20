@@ -1,9 +1,9 @@
 import React from 'react'
-// import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import './Cart.css'
 const Cart = () => {
-  // const { id } = useParams();
+  const { id } = useParams();
   const result = useSelector((state) => state.cartData)
   console.log(result.length, "cart");
 

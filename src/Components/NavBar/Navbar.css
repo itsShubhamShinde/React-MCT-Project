@@ -1,5 +1,4 @@
 .NavbarOuterDiv{
-    /* border: 2px solid red; */
     height: 10vh;
     width: 100%;
     background-color: black;
@@ -8,7 +7,6 @@
     align-items: center;
 }
 .NavbarOuterDiv div{
-    /* border: 2px solid blue; */
     width: 50%;
     margin-right: 60px;
 }
