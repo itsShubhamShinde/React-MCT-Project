@@ -26,3 +26,5 @@
    - Email : Enter any data.
    - Password : Enter any data.
    - Remember : Make it true.
+   
+Due to time limit not make it responsive.
