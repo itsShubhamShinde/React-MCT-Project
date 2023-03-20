@@ -1,5 +1,4 @@
-# Hosted Link : https://react-mct-project-seven.vercel.app/Users
-
+# Hosted Link : https://react-mct-project-seven.vercel.app/
 ## Details :
    - Design a demo website using react functionality..
 
