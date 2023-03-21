@@ -10,17 +10,17 @@
   - Alert.
   - Filtering.
   - FetchAPI.
-  - Conditional Rendering - React.
+  - Conditional Rendering.
   
 ## Hooks :
-  - Usestate.
-  - Uselocation.
-  - Useeffect.
-  - Usenavigation.
-  - Useparam.
-  - Useselector.
-  - Usedispatch.
-  - Usereducer.
+  - useState.
+  - useLocation.
+  - useEffect.
+  - useNavigation.
+  - useParam.
+  - useSelector.
+  - useDispatch.
+  - useReducer.
   
 ## Login Details :
    - Email : Enter any data.
